@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCore\Contract\Mapper;
+namespace ZnCore\Contract\Mapper\Interfaces;
 
 interface MapperInterface
 {
