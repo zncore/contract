@@ -2,7 +2,7 @@
 
 namespace ZnCore\Contract\User\Interfaces\Entities;
 
-use ZnCore\Domain\Interfaces\Entity\EntityIdInterface;
+use ZnCore\Contract\Domain\Interfaces\Entities\EntityIdInterface;
 
 interface IdentityEntityInterface extends EntityIdInterface
 {

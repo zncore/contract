@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCore\Contract\Domain\Interfaces;
+namespace ZnCore\Contract\Domain\Interfaces\Entities;
 
 interface EntityIdInterface
 {
