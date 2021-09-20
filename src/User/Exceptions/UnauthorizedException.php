@@ -3,8 +3,9 @@
 namespace ZnCore\Contract\User\Exceptions;
 
 use Exception;
+use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 
-class UnauthorizedException extends Exception
+class UnauthorizedException extends AccessDeniedException
 {
 
 }
