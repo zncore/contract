@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCore\Domain\Interfaces;
+namespace ZnCore\Contract\Domain\Interfaces;
 
 use ZnCore\Domain\Libs\Query;
 
