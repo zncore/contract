@@ -3,7 +3,7 @@
 namespace ZnCore\Contract\User\Traits;
 
 use Symfony\Component\Security\Core\Security;
-use ZnBundle\User\Domain\Interfaces\Entities\IdentityEntityInterface;
+use ZnCore\Contract\User\Interfaces\Entities\IdentityEntityInterface;
 
 trait GetUserTrait
 {
