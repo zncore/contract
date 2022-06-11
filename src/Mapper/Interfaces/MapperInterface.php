@@ -4,7 +4,6 @@ namespace ZnCore\Contract\Mapper\Interfaces;
 
 /**
  * Interface MapperInterface
- * @package ZnCore\Contract\Mapper\Interfaces
  * @deprecated
  */
 interface MapperInterface
