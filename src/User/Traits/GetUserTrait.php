@@ -13,6 +13,10 @@ use ZnCore\Contract\User\Interfaces\Entities\IdentityEntityInterface;
 trait GetUserTrait
 {
 
+    /**
+     * Сущность аккаунта
+     * @var IdentityEntityInterface $user
+     */
     private $user;
 
     /**
