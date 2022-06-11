@@ -2,6 +2,11 @@
 
 namespace ZnCore\Contract\Domain\Interfaces\Entities;
 
+/**
+ * Интерфейс атрибута "ID"
+ * 
+ * CRUD-сушности можно узнать по наиличию а данного интерфейса
+ */
 interface EntityIdInterface
 {
 
