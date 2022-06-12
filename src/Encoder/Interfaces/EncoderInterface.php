@@ -12,14 +12,16 @@ interface EncoderInterface
 
     /**
      * Кодирование данных
-     * @param $data
+     *
+     * @param $data Исходные данные
      * @return mixed
      */
     public function encode($data);
 
     /**
      * Декодирование данных
-     * @param $encodedData
+     * 
+     * @param $encodedData Закодированные данные
      * @return mixed
      */
     public function decode($encodedData);
