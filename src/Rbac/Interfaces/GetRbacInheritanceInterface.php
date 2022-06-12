@@ -15,5 +15,5 @@ interface GetRbacInheritanceInterface
      * Получить древо наследования
      * @return array
      */
-    public static function getInheritance(): array;
+    public static function getInheritance();
 }
