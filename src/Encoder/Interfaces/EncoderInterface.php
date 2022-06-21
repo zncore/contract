@@ -11,22 +11,7 @@ namespace ZnCore\Contract\Encoder\Interfaces;
  * @see \Symfony\Component\Serializer\Encoder\EncoderInterface
  * @see \Symfony\Component\Serializer\Encoder\DecoderInterface
  */
-interface EncoderInterface
+interface EncoderInterface extends EncodeInterface, DecodeInterface
 {
 
-    /**
-     * Кодирование данных
-     *
-     * @param mixed $data Исходные данные
-     * @return mixed
-     */
-    public function encode($data);
-
-    /**
-     * Декодирование данных
-     * 
-     * @param mixed $encodedData Закодированные данные
-     * @return mixed
-     */
-    public function decode($encodedData);
 }
