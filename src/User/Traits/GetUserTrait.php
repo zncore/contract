@@ -7,7 +7,7 @@ use ZnCore\Contract\User\Interfaces\Entities\IdentityEntityInterface;
 
 /**
  * Работа с сущностью аутентифицированного пользователя
- * 
+ *
  * Используется упрощения работы с пользователем в классах.
  */
 trait GetUserTrait
@@ -30,11 +30,12 @@ trait GetUserTrait
 
     /**
      * Назначение общего хранилища аккаунта и его токена
-     * 
+     *
      * Обычно, его назначают в конструкторе класса
      * @param Security $security
      */
-    public function setSecurity(Security $security) {
+    public function setSecurity(Security $security)
+    {
         $this->user = $security->getToken()->getUser();
     }
 }
