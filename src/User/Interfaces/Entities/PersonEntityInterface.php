@@ -2,7 +2,7 @@
 
 namespace ZnCore\Contract\User\Interfaces\Entities;
 
-use ZnCore\Entity\Interfaces\EntityIdInterface;
+use ZnDomain\Entity\Interfaces\EntityIdInterface;
 
 /**
  * Интерфейс сущности персоны пользователя
