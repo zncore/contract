@@ -3,6 +3,7 @@
 namespace ZnCore\Contract\Common\Exceptions;
 
 use Exception;
+use Throwable;
 
 /**
  * Заглушка для ненужных методов интерфейса
@@ -14,4 +15,8 @@ use Exception;
 class NotImplementedMethodException extends Exception
 {
 
+    /*public function __construct(string $className = null, string $methodName = null)
+    {
+        'Not Implemented Method "' . $className . '::' . $methodName . '"!';
+    }*/
 }
