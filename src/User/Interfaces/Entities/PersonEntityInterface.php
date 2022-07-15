@@ -2,12 +2,10 @@
 
 namespace ZnCore\Contract\User\Interfaces\Entities;
 
-use ZnDomain\Entity\Interfaces\EntityIdInterface;
-
 /**
  * Интерфейс сущности персоны пользователя
  */
-interface PersonEntityInterface extends EntityIdInterface
+interface PersonEntityInterface
 {
 
     /**

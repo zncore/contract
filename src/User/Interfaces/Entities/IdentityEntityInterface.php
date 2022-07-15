@@ -2,12 +2,11 @@
 
 namespace ZnCore\Contract\User\Interfaces\Entities;
 
-use ZnDomain\Entity\Interfaces\EntityIdInterface;
-
 /**
  * Интерфейс сущности аккаунта пользователя
+ * @todo Перенести в
  */
-interface IdentityEntityInterface extends EntityIdInterface
+interface IdentityEntityInterface
 {
 
     /**
