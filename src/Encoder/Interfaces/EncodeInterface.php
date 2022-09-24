@@ -2,6 +2,9 @@
 
 namespace ZnCore\Contract\Encoder\Interfaces;
 
+/**
+ * Возможность кодирования данных
+ */
 interface EncodeInterface
 {
 
